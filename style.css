@@ -6,8 +6,20 @@
     font-family: arshia;
     src: url(./fonts/B\ Arshia_p30download.com.ttf);
 }
+@keyframes animate{ 
+    0%{ 
+      opacity: 0; 
+    } 
+    50%{ 
+      opacity: 0.7; 
+    } 
+    100%{ 
+      opacity: 0; 
+    } 
+}
 *{
     font-family: nazanin;
+    text-align: center;
 }
 body{
     background-color:        #DDE6ED;
@@ -26,16 +38,6 @@ header{
     padding: 0px;
 }
 @media only screen and (min-width : 828px){
-    header{
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        background-color: #FFCC70;
-        width: 100%;
-        height: 80px;
-        margin: 0px;
-        padding: 0px;
-    }
     .left-header{
         display: flex;
         align-items: center;
@@ -206,7 +208,7 @@ header{
     .text-lesson{
         margin: 0;
         font-weight: bold;
-        color: #FFCC70;
+        color: #FF895D;
         text-shadow: 2px 4px 3px whitesmoke;
         font-family: arshia;
     }
@@ -279,8 +281,15 @@ header{
         flex-direction: column;
         width: 100%;
         text-decoration: none;
-        color: #8ECDDD;
+        color: #FF895D;
+        font-weight: bold;
     }
+    .main-vids-left a p{
+        font-size: 3.5vh;
+        animation: animate 1.5s linear infinite;
+        margin: 0;
+        margin-bottom: 2%;
+    } 
     .main-vids-left a img{
         width: 40%;
         height: auto;
@@ -533,7 +542,7 @@ header{
     .text-lesson{
         margin: 0;
         font-weight: bold;
-        color: #FFCC70;
+        color: #FF895D;
         text-shadow: 2px 4px 3px whitesmoke;
         font-family: arshia;
     }
@@ -606,9 +615,15 @@ header{
         flex-direction: column;
         width: 100%;
         text-decoration: none;
-        color: #8ECDDD;
-        margin: 0;
+        color: #FF895D;
+        font-weight: bold;
     }
+    .main-vids-left a p{
+        font-size: 3.5vh;
+        animation: animate 1.5s linear infinite;
+        margin: 0;
+        margin-bottom: 2%;
+    } 
     .main-vids-left a img{
         width: 15%;
         height: auto;
@@ -866,7 +881,7 @@ header{
     .text-lesson{
         margin: 0;
         font-weight: bold;
-        color: #FFCC70;
+        color: #FF895D;
         text-shadow: 2px 4px 3px whitesmoke;
         font-family: arshia;
     }
@@ -939,9 +954,15 @@ header{
         flex-direction: column;
         width: 100%;
         text-decoration: none;
-        color: #8ECDDD;
-        margin: 0;
+        color: #FF895D;
+        font-weight: bold;
     }
+    .main-vids-left a p{
+        font-size: 3.5vh;
+        animation: animate 1.5s linear infinite;
+        margin: 0;
+        margin-bottom: 2%;
+    } 
     .main-vids-left a img{
         width: 15%;
         height: auto;
